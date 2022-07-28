@@ -1,26 +1,58 @@
 [
     {
-      "question": "Inside which HTML element do we put the JavaScript??",
-      "choice1": "<script>",
-      "choice2": "<javascript>",
-      "choice3": "<js>",
-      "choice4": "<scripting>",
-      "answer": 1
+      "question": "Who did Noel Furlong claim Ted had a voice like?",
+      "choice1": "Barbara Streisand",
+      "choice2": "Celine Dion",
+      "choice3": "Scoopy Scoopy Dogg Dogg",
+    
+      "answer": 2
     },
     {
-      "question": "What is the correct syntax for referring to an external script called 'xxx.js'?",
-      "choice1": "<script href='xxx.js'>",
-      "choice2": "<script name='xxx.js'>",
-      "choice3": "<script src='xxx.js'>",
-      "choice4": "<script file='xxx.js'>",
+      "question": "Fill in the blank: “Dougal, we are not watching ______”",
+      "choice1": "Total Recall",
+      "choice2": "Terminator",
+      "choice3": "Aliens",
+     
       "answer": 3
     },
     {
-      "question": " How do you write 'Hello World' in an alert box?",
-      "choice1": "msgBox('Hello World');",
-      "choice2": "alertBox('Hello World');",
-      "choice3": "msg('Hello World');",
-      "choice4": "alert('Hello World');",
-      "answer": 4
+      "question": "What name did Dougal give to his rabbit in the episode where the house became infested with rabbits during a visit by Bishop Brennan?",
+      "choice1": "Sampras",
+      "choice2": "Agassi",
+      "choice3": "Henman",
+     
+      "answer": 1
+    },
+    {
+      "question": "Who won the Lovely Girls competition?",
+      "choice1": "Niamh",
+      "choice2": "Imelda",
+      "choice3": "Assumpta",
+     
+      "answer": 2
+    },
+    {
+      "question": "What does Dougal attempt to give up for Lent?",
+      "choice1": "Rollerblading",
+      "choice2": "Alcohol",
+      "choice3": "Cigarettes",
+     
+      "answer": 1
+    },
+    {
+      "question": "What country did Father Jessup sarcastically claim to have come by en route to Craggy Island with Bishop Brennan?",
+      "choice1": "Southern Yemen",
+      "choice2": "Outer Mongolia",
+      "choice3": "Chile",
+     
+      "answer": 1
+    },
+    {
+      "question": "What was Hud Hastings wearing that prompted suspicion from Ted about his role in corrupting the King of the Sheep competition?",
+      "choice1": "A fur coat",
+      "choice2": "'A crown",
+      "choice3": "A Gucci handbag",
+      
+      "answer": 2
     }
   ]
