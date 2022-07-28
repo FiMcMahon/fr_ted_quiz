@@ -136,3 +136,18 @@ input {
 input::placeholder {
   color: #aaa;
 }
+
+.end-image{
+  max-width: 30rem;
+  border-radius:50%;
+  border:2px solid black;
+  margin-bottom: 2rem;
+}
+
+.end-screen{
+  background-image:url(./assets/images/end_screen.jpg);
+  height:100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
