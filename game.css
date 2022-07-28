@@ -4,7 +4,7 @@
   width: 100%;
   font-size: 1.8rem;
   border: 0.1rem solid rgb(86, 165, 235, 0.25);
-  background-color: white;
+  background-color:#FFEAAE;
 }
 
 .choice-container:hover {
@@ -16,7 +16,7 @@
 
 .choice-prefix {
   padding: 1.5rem 2.5rem;
-  background-color: #56a5eb;
+  background-color: #FF8200;
   color: white;
 }
 
@@ -42,7 +42,8 @@
 
 .hud-prefix {
   text-align: center;
-  font-size: 2rem;
+  font-size: 3.5rem;
+  color:#FFC100;
 }
 
 .hud-main-text {
@@ -52,12 +53,12 @@
 #progressBar {
   width: 20rem;
   height: 4rem;
-  border: 0.3rem solid #56a5eb;
+  border: 0.3rem solid #FF8200;
   margin-top: 1.5rem;
 }
 
 #progressBarFull {
   height: 3.4rem;
-  background-color: #56a5eb;
+  background-color: #FF8200;
   width: 0%;
 }

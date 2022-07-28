@@ -1,8 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
 
-:root {
-  background-color: #ecf5ff;
+:root {;
   font-size: 62.5%;
 }
 
@@ -11,7 +10,10 @@
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
-  color: #333;
+  color: #0A0903;
+}
+body{
+  background-image:url(./assets/images/background.jpg);
 }
 
 h1,
@@ -23,7 +25,7 @@ h4 {
 
 h1 {
   font-size: 5.4rem;
-  color: #56a5eb;
+  color: #FF8200;
   margin-bottom: 5rem;
 }
 
@@ -36,6 +38,7 @@ h2 {
   font-size: 4.2rem;
   margin-bottom: 4rem;
   font-weight: 700;
+  background-color: #FFC100;
 }
 
 h3 {
@@ -88,10 +91,10 @@ h3 {
   padding: 1rem 0;
   width: 20rem;
   text-align: center;
-  border: 0.1rem solid #56a5eb;
+  border: 0.1rem solid #FF8200;
   margin-bottom: 1rem;
   text-decoration: none;
-  color: #56a5eb;
+  color: #FF8200;
   background-color: white;
 }
 
