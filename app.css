@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
 
-:root {;
+:root {
   font-size: 62.5%;
 }
 
@@ -147,7 +147,7 @@ input::placeholder {
 .end-image{
   max-width: 30rem;
   border-radius:50%;
-  border:2px solid black;
+  border:2px solid rgb(50, 153, 205);
   margin-bottom: 2rem;
 }
 

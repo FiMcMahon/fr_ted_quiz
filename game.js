@@ -1,5 +1,5 @@
 const question = document.getElementById('question');
-const choices = Array.from(document.getElementsByClassName('choice-text'));
+const options = Array.from(document.getElementsByClassName('options'));
 const progressText = document.getElementById('progressText');
 const scoreText = document.getElementById('score');
 const progressBarFull = document.getElementById('progressBarFull');
@@ -49,22 +49,22 @@ getNewQuestion = () => {
     currentQuestion = availableQuesions[questionIndex];
     question.innerText = currentQuestion.question;
 
-    choices.forEach((choice) => {
-        const number = choice.dataset['number'];
-        choice.innerText = currentQuestion['choice' + number];
+    options.forEach((option) => {
+        const number = option.dataset['number'];
+        option.innerText = currentQuestion['option' + number];
     });
 
     availableQuesions.splice(questionIndex, 1);
     acceptingAnswers = true;
 };
 
-choices.forEach((choice) => {
-    choice.addEventListener('click', (e) => {
+options.forEach((option) => {
+    option.addEventListener('click', (e) => {
         if (!acceptingAnswers) return;
 
         acceptingAnswers = false;
-        const selectedChoice = e.target;
-        const selectedAnswer = selectedChoice.dataset['number'];
+        const selectedOption = e.target;
+        const selectedAnswer = selectedOption.dataset['number'];
 
         const classToApply =
             selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect';
@@ -73,10 +73,10 @@ choices.forEach((choice) => {
             incrementScore(CORRECT_BONUS);
         }
 
-        selectedChoice.parentElement.classList.add(classToApply);
+        selectedOption.parentElement.classList.add(classToApply);
 
         setTimeout(() => {
-            selectedChoice.parentElement.classList.remove(classToApply);
+            selectedOption.parentElement.classList.remove(classToApply);
             getNewQuestion();
         }, 1000);
     });
